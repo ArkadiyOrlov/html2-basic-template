@@ -1,7 +1,22 @@
 /* GLOBAL */
+@import "url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')";
 @import "./global/variables.scss";
 @import "./global/global.scss";
 @import "./global/fonts.scss";
 
 /* BLOCKS */
 @import "./blocks/header.scss";
+@import "./blocks/button.scss";
+@import "./blocks/page.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/main-product.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/range.scss";
+@import "./blocks/milk-filter.scss";
+@import "./blocks/country-filter.scss";
+@import "./blocks/pagination.scss";
+@import "./blocks/products.scss";
+@import "./blocks/map.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/form.scss";

@@ -1,0 +1,33 @@
+.range__wrapper-price input {
+  display: flex;
+  margin-bottom: 35px;
+  width: 280px;
+}
+
+.range__wrapper-input {
+  width: 118px;
+  padding: 8px 0;
+  border: solid 2px #7859cf;
+  font-size: 16px;
+  font-family: "Tahoma", sans-serif;
+  text-align: center;
+  color: #283136;
+  border-radius: 4px;
+  // color: #ffffff;
+}
+
+.range__wrapper {
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.range__price-min {
+  text-decoration-color: #bdbdbd;
+}
+
+.range__price-delimiter {
+  line-height: 38px;
+  color: #bdbdbd;
+}

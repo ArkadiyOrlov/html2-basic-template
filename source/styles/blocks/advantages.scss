@@ -1,0 +1,91 @@
+.advantages {
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.advantages__subtitle {
+  margin: 0;
+  color: #7859cf;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.advantages__title {
+  margin: 0;
+  margin-bottom: 36px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.advantages__wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+.advantages__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.advantages__item--pocket p {
+  width: 200px;
+}
+
+.advantages__item--lightning p {
+  width: 220px;
+}
+
+.advantages__item h3 {
+  margin: 0;
+  margin-bottom: 4px;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.advantages__item p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.advantages__icon {
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+}
+
+.advantages__icon--watch {
+  display: block;
+  background-image: url("../../images/icons/watch-icon.svg");
+  width: 50px;
+  height: 56px;
+}
+
+.advantages__icon--pocket {
+  display: block;
+  background-image: url("../../images/icons/pocket-icon.svg");
+  width: 52px;
+  height: 56px;
+}
+
+.advantages__icon--lightning {
+  display: block;
+  background-image: url("../../images/icons/lightning-icon.svg");
+  width: 52px;
+  height: 56px;
+}
+
+.advantages__icon--petal {
+  display: block;
+  background-image: url("../../images/icons/petal-icon.svg");
+  width: 52px;
+  height: 56px;
+}

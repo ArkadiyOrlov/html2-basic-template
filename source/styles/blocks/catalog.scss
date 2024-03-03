@@ -1,0 +1,48 @@
+.catalog {
+  width: 320px;
+  margin: 0 auto;
+  background-color: #fff0f5;
+}
+
+.catalog__card {
+  padding: 0 20px;
+}
+
+.catalog h3 {
+  margin: 0;
+  color: #7859cf;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.catalog h2 {
+  margin: 0;
+  margin-bottom: 36px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.catalog__sorting-wrapper {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.catalog__sorting-title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.catalog__sorting {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #7859cf;
+  border: none;
+  width: 165px;
+}

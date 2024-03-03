@@ -1,0 +1,59 @@
+.country-filter {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.country-filter input[type="checkbox"] {
+  position: relative;
+  width: 42px;
+  height: 24px;
+  appearance: none;
+  outline: none;
+  background: #c6c6c6;
+  border-radius: 20px;
+  transition: 0.5s;
+  box-shadow: inset 0 0 5px #000000;
+}
+
+.country-filter input:checked[type="checkbox"] {
+  background: #7859cf;
+}
+
+.country-filter input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  top: 2px;
+  left: 2px;
+  background: #ffffff;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.country-filter input:checked[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  top: 2px;
+  left: 19px;
+  background: #ffffff;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+
+.country-filter__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.country-filter__switch {
+  display: flex;
+  gap: 10px;
+}

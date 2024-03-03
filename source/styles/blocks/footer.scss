@@ -1,0 +1,115 @@
+.footer {
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 22px;
+  padding-bottom: 30px;
+}
+
+.footer__logo-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.footer h3 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #7859cf;
+  margin-bottom: 20px;
+}
+
+.footer li {
+  list-style: none;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.footer__social {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+.footer__social-item {
+  padding: 10px;
+}
+
+.footer__contacts-address {
+  display: block;
+  background-image: url("../../images/icons/address.svg");
+  width: 13px;
+  height: 16px;
+}
+
+.footer__contacts-phone {
+  display: block;
+  background-image: url("../../images/icons/phone.svg");
+  width: 13px;
+  height: 16px;
+}
+
+.footer__social-icon--vkontakte {
+  display: block;
+  background-image: url("../../images/icons/VK.svg");
+  width: 20px;
+  height: 20px;
+}
+
+.footer__social-icon--pinterest {
+  display: block;
+  background-image: url("../../images/icons/pinterest.svg");
+  width: 20px;
+  height: 20px;
+}
+
+.footer__social-icon--ok {
+  display: block;
+  background-image: url("../../images/icons/ok.svg");
+  width: 20px;
+  height: 20px;
+}
+
+.footer__menu-item {
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 28px;
+}
+
+.footer__contacts-link {
+  display: flex;
+  flex-direction: row;
+  width: 220px;
+  gap: 6px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer__copyright {
+  display: flex;
+  gap: 4px;
+}
+
+.footer__copyright a {
+  color: #bdbdbd;
+}
+
+.footer__copyright__icon {
+  display: block;
+  background-image: url("../../images/icons/logo-academy.svg");
+  width: 12px;
+  height: 16px;
+}

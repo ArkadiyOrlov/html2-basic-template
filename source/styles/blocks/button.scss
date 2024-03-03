@@ -1,0 +1,23 @@
+.button {
+  background-color: #000000;
+  width: 35px;
+  height: 12px;
+}
+
+.button__union-logo {
+  display: block;
+  background-image: url("../../images/icons/union-logo.svg");
+  // background-color: #999999;
+  width: 16px;
+  height: 16px;
+  margin: 22px;
+}
+
+.button__user-logo {
+  display: block;
+  background-image: url("../../images/icons/user-logo.svg");
+  // background-color: red;
+  width: 16px;
+  height: 16px;
+  margin: 22px;
+}

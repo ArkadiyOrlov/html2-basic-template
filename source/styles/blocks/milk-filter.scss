@@ -1,0 +1,43 @@
+.milk-filter {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.milk-filter__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.milk-filter__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.milk-filter__apply {
+  width: 280px;
+  min-height: 40px;
+  margin: 0;
+  padding: 0;
+  background: #7859cf;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.milk-filter__reset {
+  width: 280px;
+  min-height: 40px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
+  color: #7859cf;
+  background-color: #ffffff;
+}
