@@ -1,0 +1,17 @@
+.slider-button-prev {
+  display: block;
+  align-self: center;
+  background-image: url("../../images/icons/arrow-left.svg");
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+}
+
+.slider-button-next {
+  display: block;
+  align-self: center;
+  background-image: url("../../images/icons/arrow-right.svg");
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+}

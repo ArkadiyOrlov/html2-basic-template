@@ -1,19 +1,21 @@
-.range__wrapper-price input {
-  display: flex;
-  margin-bottom: 35px;
-  width: 280px;
-}
+// .range__wrapper-price input {
+//   display: flex;
+//   margin-bottom: 35px;
+//   width: 280px;
+// }
 
-.range__wrapper-input {
+.range__price-input {
   width: 118px;
+  // margin-bottom: 34px;
   padding: 8px 0;
   border: solid 2px #7859cf;
   font-size: 16px;
-  font-family: "Tahoma", sans-serif;
+  line-height: 24px;
+  font-weight: 500;
+  // font-family: "Tahoma", sans-serif;
   text-align: center;
   color: #283136;
   border-radius: 4px;
-  // color: #ffffff;
 }
 
 .range__wrapper {
@@ -23,11 +25,41 @@
   margin-bottom: 30px;
 }
 
-.range__price-min {
+.range__price-input {
   text-decoration-color: #bdbdbd;
 }
 
 .range__price-delimiter {
   line-height: 38px;
   color: #bdbdbd;
+}
+
+.noUi-target {
+  background-color: #e2e2e2;
+  border: none;
+  box-shadow: none;
+  height: 2px;
+  margin-bottom: 34px;
+}
+
+.noUi-connect {
+  background-color: #9070ec;
+}
+
+.noUi-handle::before,
+.noUi-handle::after {
+  display: none;
+}
+
+.noUi-handle {
+  box-shadow: none;
+  border-radius: 100%;
+  background-color: #ffffff;
+  border: solid 2px #9070ec;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 24px;
+  height: 24px;
+  top: -11px;
 }

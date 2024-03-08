@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <title>Drink2Go</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="styles/styles.css">
-    <script src="scripts/index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- <link rel="preload" href="fonts/Montserrat-Bold.ttf" type="font/ttf" as="font" crossorigin="anonymous">
-    <link rel="preload" href="fonts/Montserrat-VariableFont_wght.ttf" type="font/ttf" as="font" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="vendor/nouislider.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/index.js" defer></script>
   </head>
   <body class="page__body">
     <header class="header" data-test="header">
@@ -58,12 +57,25 @@
       </header>
     <main class="main-container">
       <section class="main-product" data-test="hero">
+        <div class="slider-button-prev"></div>
         <div class="main-product__wrapper slider-pagination">
+
           <picture>
             <!-- <source media="(min-width: 1440px)" srcset="img/cat-hero-desktop.png 1x, img/cat-hero-desktop@2x.png 2x">
             <source media="(min-width: 768px)" srcset="img/cat-hero-tablet.png 1x, img/cat-hero-tablet@2x.png 2x"> -->
             <img class="main-hero__logo-hero" src="images/flat_white_img@1x.png" srcset="img/cat-hero-mobile@2x.png 2x" width="280" height="270" alt="Баночка.">
           </picture>
+          <picture>
+            <!-- <source media="(min-width: 1440px)" srcset="img/cat-hero-desktop.png 1x, img/cat-hero-desktop@2x.png 2x">
+            <source media="(min-width: 768px)" srcset="img/cat-hero-tablet.png 1x, img/cat-hero-tablet@2x.png 2x"> -->
+            <img class="main-hero__logo-hero" src="images/espresso_desktop@1x.png" srcset="images/espresso_desktop@2x.png 2x" width="280" height="270" alt="Баночка.">
+          </picture>
+          <picture>
+            <!-- <source media="(min-width: 1440px)" srcset="img/cat-hero-desktop.png 1x, img/cat-hero-desktop@2x.png 2x">
+            <source media="(min-width: 768px)" srcset="img/cat-hero-tablet.png 1x, img/cat-hero-tablet@2x.png 2x"> -->
+            <img class="main-hero__logo-hero" src="images/lavender_desktop@1x.png" srcset="images/lavender_desktop@x.png 2x" width="280" height="270" alt="Баночка.">
+          </picture>
+
           <p class="main-product__new">НОВИНКА!</p>
           <h1 class="main-product__title">Декаф Флэт Уайт</h1>
           <p class="main-product__description">Свежесваренный кофе без кофеина из Эфиопии с натуральным фермерским молоком — то, что нужно для расслабления после тяжёлого рабочего дня</p>
@@ -73,6 +85,7 @@
             <button class="main-product__button">Заказать</button>
           </div>
         </div>
+        <div class="slider-button-next"></div>
       </section>
       <!-- <section class="description-new"></section> -->
       <section class="advantages" data-test="features">
@@ -105,7 +118,13 @@
         <h3>КАТАЛОГ</h3>
         <h2>Каталог кофейных напитков</h2>
         <form class="form" action="https://echo.htmlacademy.ru/" method="post">
-          <div class="range">
+          <div class="range" id="range-slider"></div>
+          <div class="range__wrapper">
+              <input class="range__price-input" type="number" min="100" max="900" placeholder="0" id="input-0"></input>
+            <span class="range__price-delimiter"> - </span>
+               <input class="range__price-input" type="number" min="100" max="900" placeholder="900" id="input-1"></input>
+          </div>
+          <!-- <div class="range">
             <label class="form__subtitle">Цена</label>
             <div class="range__wrapper-price">
               <input name="price" id="price" type="range" min="0" max="1000" step="10" value="900">
@@ -119,7 +138,7 @@
                  <output name="range__price-max">900</output>
               </div>
             </div>
-            </div>
+          </div> -->
             <fieldset class="milk-filter">
               <legend class="form__subtitle">Наличие молока</legend>
               <ul class="milk-filter__list">
@@ -453,5 +472,9 @@
         </div>
       </div>
     </footer>
+
+    <script src="scripts/slider.js"></script>
+    <script src="vendor/nouislider.js"></script>
+    <script src="scripts/range.js"></script>
   </body>
 </html>
