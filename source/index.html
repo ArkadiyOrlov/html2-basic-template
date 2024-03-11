@@ -16,42 +16,52 @@
       <div class="header__wrapper">
         <a class="header__logo-link" href="index.html">
           <picture>
-            <!-- <source media="(min-width: 1440px)" srcset="img/logotype-desktop.svg">
-            <source media="(min-width: 768px)" srcset="img/logotype-tablet.svg"> -->
-            <img class="header__logo-image" src="images/logotype-mobile.svg" width="32" height="36" alt="Логотип сайта Drink2Go.">
+            <source media="(min-width: 1440px)" srcset="images/icons/drink2Go-desktop.svg">
+            <source media="(min-width: 768px)" srcset="images/icons/drink2Go-tablet.svg">
+            <img class="header__logo-image" src="images/icons/drink2Go-mobile.svg" width="32" height="36" alt="Логотип сайта Drink2Go.">
           </picture>
+          <span class="header__logo-description">Интернет-магазин <br> кофейных напитков</span>
         </a>
         <div class="header__wrapper-nav">
-          <a class="header__logo-link" href="index.html">
-            <span class="button__union-logo"></span>
-          </a>
-          <a class="header__logo-link" href="index.html">
-            <span class="button__user-logo"></span>
-          </a>
+          <div class="header__wrapper-icon">
+            <a class="header__icon-link" href="index.html">
+              <span class="button__union-logo"></span>
+              <span class="header__icon-description">КОРЗИНА</span>
+            </a>
+            <a class="header__icon-link" href="index.html">
+              <span class="button__user-logo"></span>
+              <span class="header__icon-description">ВОЙТИ</span>
+            </a>
+          </div>
           <nav class="main-nav main-nav--closed">
-            <button class="main-nav__toggle js-toggle-button" type="button">
-              <!-- <span class="visually-hidden">Открыть меню</span> -->
-            </button>
+              <button class="main-nav__toggle js-toggle-button" type="button">
+                <!-- <span class="visually-hidden">Открыть меню</span> -->
+              </button>
               <div class="main-nav__wrapper">
                 <ul class="site-list">
-                  <li class="main-nav__list">
-                    <a class="" href="index.html">
-                      главная
+                  <li class="site-list__item site-list__item--active">
+                    <a class="site-list__link" href="index.html">
+                      ГЛАВНАЯ
                     </a>
                   </li>
-                  <li class="">
-                    <a class="" href="catalog.html">
-                      каталог продукции
+                  <li class="site-list__item">
+                    <a class="site-list__link" href="catalog.html">
+                      КАТАЛОГ
                     </a>
                   </li>
-                  <li class="">
-                    <a class="" href="form.html">
-                      подбор программы
+                  <li class="site-list__item">
+                    <a class="site-list__link" href="form.html">
+                      ДОСТАВКА
+                    </a>
+                  </li>
+                  <li class="site-list__item">
+                    <a class="site-list__link" href="form.html">
+                      О НАС
                     </a>
                   </li>
                 </ul>
               </div>
-            </nav>
+          </nav>
         </div>
       </div>
       </header>
@@ -61,19 +71,19 @@
         <div class="main-product__wrapper slider-pagination">
 
           <picture>
-            <!-- <source media="(min-width: 1440px)" srcset="img/cat-hero-desktop.png 1x, img/cat-hero-desktop@2x.png 2x">
-            <source media="(min-width: 768px)" srcset="img/cat-hero-tablet.png 1x, img/cat-hero-tablet@2x.png 2x"> -->
-            <img class="main-hero__logo-hero" src="images/flat_white_img@1x.png" srcset="img/cat-hero-mobile@2x.png 2x" width="280" height="270" alt="Баночка.">
+            <source media="(min-width: 1440px)" srcset="images/slider/flat_white_slider_desktop@1x.webp 1x, images/slider/flat_white_slider_desktop@1x.webp 2x">
+            <source media="(min-width: 768px)" srcset="images/slider/flat_white_slider_tablet@1x.png 1x, images/slider/flat_white_slider_tablet@2x.png 2x">
+            <img class="main-hero__logo-hero" src="images/slider/flat_white_slider_mobile@1x.png" srcset="images/slider/flat_white_slider_mobile@2x.png 2x" width="280" height="270" alt="Баночка.">
           </picture>
           <picture>
-            <!-- <source media="(min-width: 1440px)" srcset="img/cat-hero-desktop.png 1x, img/cat-hero-desktop@2x.png 2x">
-            <source media="(min-width: 768px)" srcset="img/cat-hero-tablet.png 1x, img/cat-hero-tablet@2x.png 2x"> -->
-            <img class="main-hero__logo-hero" src="images/espresso_desktop@1x.png" srcset="images/espresso_desktop@2x.png 2x" width="280" height="270" alt="Баночка.">
+            <source media="(min-width: 1440px)" srcset="images/slider/espresso_slider_desktop@1x.webp 1x, images/slider/espresso_slider_desktop@2x.webp 2x">
+            <source media="(min-width: 768px)" srcset="images/slider/espresso_slider_tablet@1x.png 1x, images/slider/espresso_slider_tablet@2x.png 2x">
+            <img class="main-hero__logo-hero" src="images/slider/espresso_slider_mobile@1x.png" srcset="images/slider/espresso_slider_mobile@2x.png 2x" width="280" height="270" alt="Баночка.">
           </picture>
           <picture>
-            <!-- <source media="(min-width: 1440px)" srcset="img/cat-hero-desktop.png 1x, img/cat-hero-desktop@2x.png 2x">
-            <source media="(min-width: 768px)" srcset="img/cat-hero-tablet.png 1x, img/cat-hero-tablet@2x.png 2x"> -->
-            <img class="main-hero__logo-hero" src="images/lavender_desktop@1x.png" srcset="images/lavender_desktop@x.png 2x" width="280" height="270" alt="Баночка.">
+            <source media="(min-width: 1440px)" srcset="images/slider/lavender_slider_desktop@1x.webp 1x, images/slider/lavender_slider_desktop@2x.webp 2x">
+            <source media="(min-width: 768px)" srcset="images/slider/lavender_slider_tablet@1x.png 1x, images/slider/lavender_slider_tablet@2x.png 2x">
+            <img class="main-hero__logo-hero" src="images/slider/lavender_slider_mobile@1x.png" srcset="images/slider/lavender_slider_mobile@2x.png 2x" width="280" height="270" alt="Баночка.">
           </picture>
 
           <p class="main-product__new">НОВИНКА!</p>
@@ -476,5 +486,6 @@
     <script src="scripts/slider.js"></script>
     <script src="vendor/nouislider.js"></script>
     <script src="scripts/range.js"></script>
+    <script src="scripts/menu.js"></script>
   </body>
 </html>

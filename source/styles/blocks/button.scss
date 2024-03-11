@@ -10,7 +10,11 @@
   // background-color: #999999;
   width: 16px;
   height: 16px;
-  margin: 22px;
+  // margin: 22px;
+
+  @media (min-width: $tablet-width) {
+    // margin: 22px 32px;
+  }
 }
 
 .button__user-logo {
@@ -19,5 +23,5 @@
   // background-color: red;
   width: 16px;
   height: 16px;
-  margin: 22px;
+  // margin: 22px;
 }
